@@ -1,0 +1,22 @@
+.play-again {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+  min-height: 160px;
+
+  &-title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    animation: animation-opacity 2s ease-out forwards;
+  }
+
+  &-button {
+    background-color: $white;
+    color: $dark-text;
+    text-transform: uppercase;
+    padding: 2vh 10vh;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+@import "./base/fonts.scss";
+@import "./base/settings";
+@import "./base/base.scss";
+
+//components
+@import "./components/move.scss";
+@import "./components/scoreboard.scss";
+@import "./components/rules.scss";
+@import "./components/pick.scss";
+@import "./components/play-again.scss";
+
+//pages
+@import "./pages/home.scss";

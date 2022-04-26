@@ -1,0 +1,41 @@
+@import "settings";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  width: 100vw;
+  height: 100vh;
+  font-weight: 600;
+  font-size: $font-size--medium;
+  overflow-x: hidden;
+  color: $white;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+button {
+  font-family: $font-family;
+  outline: none;
+  border: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@keyframes animation-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
